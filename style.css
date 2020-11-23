@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Xanh+Mono:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Xanh Mono', monospace;
+    font-size: 21px;
+}
+h3 {
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: .3rem;
+}
+.underline {
+    border-top: 1px solid #000;
+    width: 40%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    color: #505962;
+}
+.padding {
+    padding: 100px 0;
+}
+.jumbotron {
+    padding-top: 100px !important;
+    padding-bottom: 100px;
+    margin-bottom: 0 !important;
+}
+
+
+
+
+/* Home Section */
+.navbar-brand img {
+    height: 2rem;
+}
+header.landing {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("./img/landing.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+}
+header.landing .landing-subheading {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+    margin-top: 20%;
+    letter-spacing: .5rem;
+}
+header.landing .landing-heading {
+    font-size: 3.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    letter-spacing: .5rem;
+}
+header.landing a {
+    font-family: Arial, Helvetica, sans-serif !important;
+    padding: 1rem 2rem;
+    letter-spacing: .2rem;
+    text-transform: none !important;
+    border-width: medium;
+    font-weight: 600;
+}
+.nav-link {
+    font-family: none;
+    padding-left: 1rem !important;
+}
+
+/* Media Queries for Home */
+@media (max-width: 600px) {
+    header.landing .landing-subheading {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 600px) {
+    header.landing .landing-subheading {
+        font-size: 1.3rem;
+    }
+    header.landing .landing-heading {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 375px) {
+    header.landing .landing-subheading {
+        margin-top: -30%;
+        font-size: 1rem;
+    }
+    header.landing .landing-heading {
+        font-size: 1.8rem;
+        margin-bottom: 1.4rem;
+    }
+    header.landing a {
+        padding: .5rem 1rem;
+    }
+}
+/* end of Home Section */
+
+
+
+
+/* About Section */
+#about h4 {
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+/* end of About Section */
+
+
+
+
+/* Portfolio Section */
+#portfolio img {
+    width: 100%;
+    height: 100%;
+}
+#portfolio .no-padding .col-md-6{
+    padding: 0;
+}
+/* end of  Portfolio Section */
+
+
+
+
+/* Testimonials Section */
+/* end of  Testimonials Section */
+
+
+
+
+/* Team Section */
+/* end of  Team Section */
+
+
+
+
+/* Contact Section */
+.footer {
+    color: white;
+    line-height:2rem;
+}
+.footer img{
+    height: 2rem;
+    margin-bottom: 2rem;
+}
+/* end of  Contact Section */
